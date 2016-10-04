@@ -1,0 +1,16 @@
+{
+  "name": "pokelastic",
+  "version": "1.0.0",
+  "description": "Index Pokémon GO data in Elasticsearch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Lukas Olson",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "pokemon-go-node-api": "^1.3.5"
+  }
+}

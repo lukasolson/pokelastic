@@ -1,0 +1,29 @@
+{
+  "mappings" : {
+    "spawn-point" : {
+      "properties" : {
+        "Latitude" : {
+          "type" : "float"
+        },
+        "Longitude" : {
+          "type" : "float"
+        },
+        "SpawnPointId" : {
+          "type" : "keyword"
+        },
+        "expiration" : {
+          "type" : "date"
+        },
+        "location" : {
+          "type" : "geo_point"
+        },
+        "spawn" : {
+          "type" : "date"
+        },
+        "timestamp" : {
+          "type" : "date"
+        }
+      }
+    }
+  }
+}

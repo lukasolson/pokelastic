@@ -1,0 +1,49 @@
+{
+  "mappings" : {
+    "encounter" : {
+      "properties" : {
+        "EncounterId" : {
+          "type" : "text"
+        },
+        "ExpirationTimeMs" : {
+          "type" : "long"
+        },
+        "Latitude" : {
+          "type" : "float"
+        },
+        "Longitude" : {
+          "type" : "float"
+        },
+        "PokedexTypeId" : {
+          "type" : "long"
+        },
+        "SpawnPointId" : {
+          "type" : "keyword"
+        },
+        "expiration" : {
+          "type" : "date"
+        },
+        "location" : {
+          "type" : "geo_point"
+        },
+        "name" : {
+          "type" : "keyword"
+        },
+        "timestamp" : {
+          "type" : "date"
+        },
+        "type" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword"
+            }
+          }
+        },
+        "url" : {
+          "type" : "keyword"
+        }
+      }
+    }
+  }
+}

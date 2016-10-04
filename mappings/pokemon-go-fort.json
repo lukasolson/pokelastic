@@ -1,0 +1,60 @@
+{
+  "mappings" : {
+    "pokestop" : {
+      "properties" : {
+        "Enabled" : {
+          "type" : "boolean"
+        },
+        "FortId" : {
+          "type" : "keyword"
+        },
+        "FortType" : {
+          "type" : "long"
+        },
+        "LastModifiedMs" : {
+          "type" : "long"
+        },
+        "Latitude" : {
+          "type" : "float"
+        },
+        "Longitude" : {
+          "type" : "float"
+        },
+        "location" : {
+          "type" : "geo_point"
+        }
+      }
+    },
+    "gym" : {
+      "properties" : {
+        "Enabled" : {
+          "type" : "boolean"
+        },
+        "FortId" : {
+          "type" : "keyword"
+        },
+        "GuardPokemonId" : {
+          "type" : "long"
+        },
+        "GymPoints" : {
+          "type" : "long"
+        },
+        "LastModifiedMs" : {
+          "type" : "long"
+        },
+        "Latitude" : {
+          "type" : "float"
+        },
+        "Longitude" : {
+          "type" : "float"
+        },
+        "Team" : {
+          "type" : "long"
+        },
+        "location" : {
+          "type" : "geo_point"
+        }
+      }
+    }
+  }
+}
