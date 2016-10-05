@@ -6,8 +6,8 @@ Index Pokémon GO data in Elasticsearch
 1. Download and run [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) (5.0+ is recommended)
 1. Download and run [Kibana](https://www.elastic.co/downloads/kibana) (5.0+ is recommended)
 1. Install [Node.js](https://nodejs.org)
-1. [Download the repo](https://github.com/lukasolson/pokelastic/archive/master.zip)
-1. `unzip pokelastic-master`
+1. [Download the repo](https://github.com/lukasolson/pokelastic/archive/master.zip) and unzip
+1. Update [areas.js](https://github.com/lukasolson/pokelastic/blob/master/areas.js) and [players.js](https://github.com/lukasolson/pokelastic/blob/master/players.js)
 1. `cd pokelastic-master`
 1. `npm install`
 1. `npm start`
